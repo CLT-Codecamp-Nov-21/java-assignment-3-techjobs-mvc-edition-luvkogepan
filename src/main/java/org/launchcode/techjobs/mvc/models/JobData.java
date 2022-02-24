@@ -205,6 +205,12 @@ public class JobData {
             e.printStackTrace();
         }
     }
+//// my code added to get all jobs
+//    public static ArrayList<Job> getAllJobs() {
+//        loadData();
+//        allJobs.sort(new NameSorter());
+//        return allJobs;
+//    }
 
     public static ArrayList<Employer> getAllEmployers() {
         loadData();
